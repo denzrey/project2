@@ -54,7 +54,7 @@ export class Summary extends Component {
       <Card.Body>
         <Card.Title className="cardTitle">Job Titles</Card.Title>
         <Card.Text>
-          <p className='cardSubTitle text-justify'><FontAwesomeIcon icon="fa-solid fa-square-check"/> System Analysis</p>
+          <p className='cardSubTitle text-justify'><FontAwesomeIcon icon="fa-solid fa-square-check"/> System Analyst</p>
           <p className='cardSubTitle text-justify'><FontAwesomeIcon icon="fa-solid fa-square-check"/> Technical Support</p>
           <p className='cardSubTitle text-justify'><FontAwesomeIcon icon="fa-solid fa-square-check"/> Database Administration</p>
         </Card.Text>
