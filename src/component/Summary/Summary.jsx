@@ -90,7 +90,7 @@ export class Summary extends Component {
                 </Col>
 
                 <Col lg={4} md={6} sm={12}>
-                  <Card className="text-center" style={{ marginTop: "140px" }}>
+                  <Card id='cardTitle' className="text-center" style={{ marginTop: "140px" }}>
                     <Card.Header></Card.Header>
                     <Card.Body>
                       <Card.Title className="cardTitle">Job Titles</Card.Title>
