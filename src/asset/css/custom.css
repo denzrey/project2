@@ -1,0 +1,240 @@
+
+
+
+.topFixedBanner {
+    background-image: url("./image/banner.jpg");
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+        
+}
+
+.topBannerOverlay{
+    position: absolute; 
+     /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 550px; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(0,0,0,0.7);
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    
+    
+    
+    
+    
+}
+
+
+.topContent{    
+    color: aliceblue;
+    margin-top: 100px;
+
+}
+
+.topTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 48px;
+    
+}
+
+
+.topSubTitle{
+    font-family: 'Raleway, sans-serif';
+    font-weight: 300;
+    color: white;
+    font-size:25;
+}
+
+.imageIcon {
+    height: 80px;
+    width: 80px;
+}
+
+
+.serviceCard{
+    margin:5px;
+    height: 22rem;
+    padding: 60px 30px;
+    box-shadow: 0 0 8px 0 rgb(1, 4, 10);
+    font-weight: 400;
+}
+
+.serviceCard:hover{
+    margin:5px;
+    height: 22rem;
+    padding: 60px 30px;
+    box-shadow: 0 0 15px 0 rgb(9, 9, 102);
+   
+}
+
+
+.serviceName{
+    color:rgb(9, 9, 102);
+    margin-top: 1rem;
+    font-family: 'Raleway, sans-serif';
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.serviceDescription{
+    color:rgb(9, 9, 102);
+    margin-top: 1rem;
+    font-family: 'Raleway, sans-serif';
+    font-size: 15px;
+    
+}
+
+.serviceNameTitle{
+    color:rgb(9, 9, 102);
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    font-family: 'Raleway, sans-serif';
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.bottom {
+    background: rgb(9, 9, 102) none repeat scroll 0 0;
+    height:3px;
+    width: 100px;
+    margin: -1.9rem auto 0;
+    margin-bottom: 3rem;
+
+}
+
+
+.navTitle {
+    font-family: 'Raleway, sans-serif';
+    font-weight: 700;
+    color: white !important;
+    font-size: 15px;
+    
+}
+
+.navTitleScroll{
+    font-family: 'Raleway, sans-serif';
+    font-weight: 700;
+    color: rgb(13, 13, 14) !important;
+    font-size: 15px;
+    
+}
+
+.navBackground{
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;;
+    -o-transition:background-color 400ms linear;;
+    transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: rgba(7, 20, 31, 0.959) !important;
+}
+
+
+.navBackgroundScroll{
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;;
+    -o-transition:background-color 400ms linear;;
+    transition: background-color 400ms linear;
+    background-color: rgb(133, 180, 221) !important;
+}
+
+.navItem{
+    text-decoration: none !important;
+    font-family: 'Raleway, sans-serif';
+    font-weight: 700;
+    color: white !important;
+    font-size: 17px;
+    
+}
+
+.navItemScroll{
+    text-decoration: none !important;
+    font-family: 'Raleway, sans-serif';
+    font-weight: 700;
+    color: rgb(13, 13, 14) !important;
+    font-size: 17px;
+    
+}
+
+.summaryBanner {
+    background-image: url("./image/summary.jpg");
+    position: relative;
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+        
+}
+
+.summaryBannerOverlay{
+    position: absolute; 
+     /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 550px; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(3, 2, 24, 0.7);
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    
+    
+    
+    
+    
+}
+
+.countNumber {
+    color:bisque;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size:40px
+}
+
+.countTitle{
+    color:rgb(234, 235, 227);
+    font-family: 'Raleway, sans-serif';
+    font-weight: 600;
+    font-size: 22px
+}
+
+.countSection {
+    margin: 20%;
+}
+
+.countSection hr{
+    color:antiquewhite;
+    border: 2px solid rgb(183, 212, 137);
+}
+
+
+.cardTitle {
+    color:rgb(240, 247, 223);
+    background-color: rgb(6, 53, 85);
+    background-size: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px
+
+
+}
+
+.cardSubTitle{
+    color:rgb(22, 21, 19);
+    margin:auto;
+    font-family: 'Raleway, sans-serif';
+    font-weight: 500;
+    font-size: 14px
+}
