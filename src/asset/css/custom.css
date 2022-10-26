@@ -238,3 +238,8 @@
     font-weight: 500;
     font-size: 14px
 }
+
+.iconBullet{
+    color:rgb(248, 133, 1);
+    font:12px;
+}
